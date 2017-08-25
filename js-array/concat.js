@@ -23,7 +23,7 @@ var people2 = [
 ];
 
 people
-    .concat(people2).
-    forEach(function(person) {
+    .concat(people2)
+    .forEach(function(person) {
         console.log(person.name);
-});
+    });
